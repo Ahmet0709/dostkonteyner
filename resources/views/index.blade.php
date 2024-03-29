@@ -77,7 +77,7 @@
 
         <div id="map" class="map-container"></div>
 
-        <form action="{{ route('sensor-verileri') }}" method="GET">
+        <form style="display: none" action="{{ route('sensor-verileri') }}" method="GET">
             <div class="mb-3">
                 <label for="cop_konteyneri_id" class="form-label">Çöp Konteyneri Seçin:</label>
                 <select name="cop_konteyneri_id" id="cop_konteyneri_id" class="form-select">
